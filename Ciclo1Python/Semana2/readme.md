@@ -1,12 +1,12 @@
-# Ejercicio 2 [Solución](sol)
+# Ejercicio 2 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana2/Ejercicio2.py)
 ## Manejo de tipos de datos en Python
 ### Enunciado
-Identifica el tipo de dato (int, float, string o list) de los siguientes valores literales: Hola Mundo [1, 10, 100] -25 1.167 [Hola,Mundo] True A={Uno:uno, Dos:dos},Para la solución de este problema, se requiere que el usuario ingrese los datos y realice la validación del tipo de dato. Se requiere que se escriba el dato ingresado, se imprima por consola y luego se imprima qué tipo de dato es.
+Identifica el tipo de dato (int, float, string o list) de los siguientes valores literales:,Para la solución de este problema, se requiere que el usuario ingrese los datos y realice la validación del tipo de dato. Se requiere que se escriba el dato ingresado, se imprima por consola y luego se imprima qué tipo de dato es.
 
 ### Instrucciones
 Para la solución de este problema, se requiere que el usuario ingrese los datos y realice la validación del tipo de dato. Se requiere que se escriba el dato ingresado, se imprima por consola y luego se imprima qué tipo de dato es.
 ___
-# Ejercicio 3 [Solución](sol)
+# Ejercicio 3 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana2/Ejercicio3.py)
 ## Ejercicio PEP 8
 ### Enunciado
 Siguiendo la recomendaciones de PEP 8, describir y solucionar el error del siguiente bloque de instrucciones n = 10 if n> 5: print “n es grande”
@@ -14,7 +14,7 @@ Siguiendo la recomendaciones de PEP 8, describir y solucionar el error del sigui
 ### Instrucciones
 Para solucionar este problema, el usuario deberá asegurarse que el bloque de instrucciones tenga en cuenta las sugerencias de PEP8, identifique si el problema es de indentación, máxima longitud de línea, líneas en blanco, espacios en blanco, codificación de archivo fuente. Escriba correctamente el código para obtener un resultado que cumpla con la condición.
 ___
-# Reto 2 [Solución](sol)
+# Reto 2 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana2/Reto3.py)
 ## Récords de la Fórmula 1
 
 ### Enunciado

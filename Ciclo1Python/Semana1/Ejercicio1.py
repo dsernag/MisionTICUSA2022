@@ -1,3 +1,4 @@
+# Ejercicio 1 Número Mágico
 # Número mágico:
 nmagico = 12345679
 

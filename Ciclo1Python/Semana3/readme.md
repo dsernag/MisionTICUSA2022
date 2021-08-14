@@ -1,4 +1,4 @@
-# Ejercicio 4 | [Solución 4](SOL)
+# Ejercicio 4 | [Solución 4](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana3/Ejercicio4.py)
 ## Manejo de Funciones Python
 ### Enunciado
 Realizar una función separar() que tome una lista de números enteros y devuelva dos listas ordenadas. La primera con los números pares, y la segunda con los números impares
@@ -6,7 +6,7 @@ Realizar una función separar() que tome una lista de números enteros y devuelv
 ### Instrucciones
 Para la solución de este problema, se requiere que el usuario escriba un script y defina una función llamada separar(). Como parámetro de entrada recibe una lista de numero de enteros. La lista debe crearla como lista=[1,2,3,4]. La función devuelve dos listas de la forma: lista1=[Numeros pares], lista2=[numeros impares]
 ___
-# Ejercicio 5 | [Solución 5](SOL)
+# Ejercicio 5 | [Solución 5](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana3/Ejercicio5.py)
 ## Manejo de IF
 ### Enunciado
 Realizar un programa que lea dos números por teclado y permita elegir entre 3 opciones en un menú: Mostrar una suma de los dos números Mostrar una resta de los dos números (el primero menos el segundo) Mostrar una multiplicación de los dos números En caso de no introducir una opción válida, el programa informará que la opción no es correcta.
@@ -15,7 +15,7 @@ Dificultad
 ### Instrucciones
 Para la solución de este problema, se requiere que el usuario escriba un script en donde se enumeren tres posibilidades. En cada posibilidad, el usuario deberá ingresar dos números, los cuales tendrá que operar según la opción escogida. La primera opción será la suma (numero1+numero2) La segunda será la resta (numero1 - numero 2) La tercera opción es la multiplicación de los números (numero1 * numero2). Si hay un error al ingresar los números, se debe colocar un mensaje que indique: información incorrecta
 ___
-# Ejercicio 6 | [Solución 6](SOL)
+# Ejercicio 6 | [Solución 6](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana3/Ejercicio6.py)
 ## Manejo de While
 ### Enunciado
 Realiza un programa que pida al usuario un número entero del 0 al 9, y que mientras el número no sea correcto se repita el proceso. Luego debe comprobar si el número se encuentra en la lista de números y notificarlo. Sugerencia: La sintaxis valor in lista permite comprobar fácilmente si un valor se encuentra en una lista (devuelve True o False)
@@ -23,7 +23,7 @@ Realiza un programa que pida al usuario un número entero del 0 al 9, y que mien
 ### Instrucciones
 Para la solución de este problema, se requiere que el usuario escriba un script y utilice la estructura While. Se debe tener como prueba una lista llamada numero=[1,2,3] Con números enteros del 0 al 9. Se debe solicitar al usuario ingresar el número que quiera comprobar. Ejemplo, si la lista de números tiene la siguiente estructura: numero=[1,3,5,9] y se ingresa por consola el numero 8, debe salir un mensaje que diga que él numero 8 no se encuentra en la lista. Si el número que se coloca está en la lista, sale un mensaje que indique, el numero x esta en la lista
 ___
-# Ejercicio 7 | [Solución 7](SOL)
+# Ejercicio 7 | [Solución 7](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana3/Ejercicio7.py)
 ## Manejo de For
 ### Enunciado
 Realiza un programa que pida al usuario cuantos números quiere introducir. Luego lee todos los números que se han introducido y se realiza una operación de media aritmética
@@ -31,7 +31,7 @@ Realiza un programa que pida al usuario cuantos números quiere introducir. Lueg
 ### Instrucciones
 Para solucionar este problema, se requiere que el usuario ingrese una cantidad limitada de números por consola. El programa debe solicitar la cantidad de números a ingresar. Con los números ingresados debe realizar el calculo de la media. Este calculo es la suma de todos los números dividido por el total de números sumados. Ejemplo, se ingresan los números 1,2,4,5, el calculo es 1+2+4+5/4.
 ___
-# Reto 3 | [Solución Reto 3](SOL)
+# Reto 3 | [Solución Reto 3](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana3/Reto3.py)
 ## Elección Sede Mundial 
 ### Enunciado
 La FIFA se encuentra preparando con casi 10 años de anticipación, la realización de la Copa Mundial de Fútbol 2030, la cual será especial debido a que este año se cumplen 100 años del primer mundial de fútbol realizado en Uruguay. El primer reto para realizar esta cita mundialista consiste en seleccionar la sede. Al ser una fiesta tan importante, nadie quiere estar fuera y muchos son los países que se postulan, pero solo unos pocos pueden realmente aplicar ya que los requerimientos son realmente difíciles de cumplir. Dentro de los principales criterios de selección de candidatos se encuentran los países que puedan garantizar:
