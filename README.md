@@ -1,6 +1,6 @@
 # Misión TIC 2022 // Universidad Sergio Arboleda
 
-<img align="center" src="https://github.com/dsernag/dsernag/blob/main/logos/misionTIC.jpg" alt="LogoMisionTIC" />
+<img align="center" src="https://github.com/dsernag/MisionTICUSA2022/blob/main/images/misionTIC.jpg" alt="LogoMisionTIC" />
 
 El siguiente respositorio da solución a los diferentes ejercicos y retos propuestos por la [Universidad Sergio Arboleda](https://misiontic2022.usergioarboleda.edu.co/) en alianza con el Ministerio de Tecnologías de la Información y las Comunicaciones para el programa [Misión TIC 2022](https://www.misiontic2022.gov.co/portal/).
 
@@ -17,8 +17,8 @@ ___
 
 ## 2) Programación básica en Java
 
-```
-...
-...
-En proceso
-```
+* [Semnana 1:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana1) Introducción a Java
+* [Semnana 2:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana2) Programación orientada a objetos
+* [Semnana 3:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana3) Interfaz gráfica con Swing
+* [Semnana 4:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana4) Bases de datos relacionales con MySQL
+* [Semnana 5:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana5) Arquitectura MVC
