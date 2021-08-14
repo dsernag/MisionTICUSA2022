@@ -27,26 +27,20 @@ Formalmente, los radares de tramo se basan en el teorema de Lagrange (también c
 
 Aunque estos conceptos pueden asustar en un principio, su interpretación es muy simple: si un piloto recorre un trayecto de la pista con una velocidad media es de 100 Km/h, necesariamente en algún punto del trayecto su velocidad habrá sido de 100 Km/h. Esto quiere decir que si la velocidad media de un piloto supera la velocidad registrada en el récord actual, gracias al teorema anterior, sabremos que en algún punto del trayecto el piloto superó la velocidad de dicho récord. Por ejemplo, si colocamos las cámaras separadas 10 Km en un tramo cuyo récord de velocidad es de 110 Km/h, y un piloto tarda 5 minutos en ser visto por la segunda cámara, sabremos que su velocidad media ha sido de 120 Km/h, y por lo tanto, el piloto superó el récord actual.
 
-Usted hace parte del equipo de desarrollo encargado de construir el software que procesará los datos registrados por las cámaras.Su misión es crear un programa en Python que permita saber si un piloto supero un récord o no.
+Usted hace parte del equipo de desarrollo encargado de construir el software que procesará los datos registrados por las cámaras. Su misión es crear un programa en Python que permita saber si un piloto supero un récord o no.
 
 | | |
 | --- | --- |
 | **Entrada** | El programa recibirá 3 parámetros: </br>La distancia en metros que separa dos cámaras.</br>El actual récord de velocidad para ese trayecto en (Km/h).</br>El tiempo en segundos que tarda el piloto en recorrer el trayecto.|
-| **Salida** | El programa imprimirá una línea indicando si el piloto superó el récord o no. Se debe considerar lo siguiente: Imprimirá VELOCIDAD NORMAL si el piloto no superó el récord.Imprimirá NUEVO RECORD si se superó la velocidad registrada en el récord actual en menos de un 20%.Imprimirá ENTREVISTA si el récord fue superado en un 20% o más de la velocidad registrada en el récord actual. En este caso se realizará una entrevista en medios deportivos.Debido a que los sistemas pueden fallar y registrar valores errados (por ejemplo, indicando que el tiempo que ha tardado el piloto es negativo). En esos casos, se deberá imprimir ERROR|
+| **Salida** | El programa imprimirá una línea indicando si el piloto superó el récord o no. Se debe considerar lo siguiente: <br> Imprimirá VELOCIDAD NORMAL si el piloto no superó el récord <br> Imprimirá NUEVO RECORD si se superó la velocidad registrada en el récord actual en menos de un 20% <br> Imprimirá ENTREVISTA si el récord fue superado en un 20% o más de la velocidad registrada en el récord actual. En este caso se realizará una entrevista en medios deportivos <br> Debido a que los sistemas pueden fallar y registrar valores errados (por ejemplo, indicando que el tiempo que ha tardado el piloto es negativo). En esos casos, se deberá imprimir ERROR|
 
 ### Instrucciones para la calificación automática
 
-Antes de enviar la solución del reto, por favor tenga en cuenta los siguientes aspectos:
-
-Cada caso de prueba se especifica en una única línea.
-Cada línea debe contener los valores de los parámetros separados por un espacio.
-Es importante no utilizar ningún mensaje a la hora de capturar las entradas, es decir, al utilizar la función input() no agregue ningún texto para capturar los datos.
-Como ejemplo considere el caso de prueba 9165 110 300, el cual corresponde a la medición entre dos cámaras separadas por 9165 metros; una récord de velocidad de 110 (Km/h) y un piloto que tarda 300 segundos en recorrer el trayecto.
-Los resultados deben imprimirse siempre en mayúscula sostenida.
+Antes de enviar la solución del reto, por favor tenga en cuenta los siguientes aspectos: <br> Cada caso de prueba se especifica en una única línea <br> Cada línea debe contener los valores de los parámetros separados por un espacio <br> Es importante no utilizar ningún mensaje a la hora de capturar las entradas, es decir, al utilizar la función input() no agregue ningún texto para capturar los datos <br> Como ejemplo considere el caso de prueba 9165 110 300, el cual corresponde a la medición entre dos cámaras separadas por 9165 metros; una récord de velocidad de 110 (Km/h) y un piloto que tard <br> segundos en recorrer el trayecto <br> Los resultados deben imprimirse siempre en mayúscula sostenida.
 
 ### Casos de prueba
 
 | | |
 | --- | --- |
-| **Entradas de ejemplo** | 9165 110 300 </br> 9165 110 299 </br> 1000 -50 -100 </br> 12000 100 359 |
-| **Salida de ejemplo** | VELOCIDAD NORMAL </br> NUEVO RECORD </br> ERROR </br> ENTREVISTA |
+| **Entradas de ejemplo** | 9165 110 300 </br> 9165 110 299 </br> 1000 -50 -100 </br> 12000 100 359 <br> 9165 110 300 <br> 9165 110 299 <br> -1000 -50 -100 <br> 12000 100 359 <br> 12000 -100 359 <br> 12000 100 433 <br> 12000 100 431 <br> 12000 100 360 <br> 12000 100 361 |
+| **Salida de ejemplo** | VELOCIDAD NORMAL </br> NUEVO RECORD </br> ERROR </br> ENTREVISTA <br> VELOCIDAD NORMA <br> NUEVO RECOR <br> ERRO <br> ENTREVIST <br> ERRO <br> VELOCIDAD NORM <br> NUEVO RECOR <br> ENTREVIST <br> NUEVO RECORD |

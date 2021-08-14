@@ -50,23 +50,15 @@ Usted ha sido seleccionado para liderar el equipo de desarrollo encargado en la 
 
 | | |
 | --- | --- |
-| **Entrada** | La entrada estará conformada por N + 1 líneas:</br> La primera línea recibirá un número N que equivale a la cantidad de registros en la base de datos de postulantes. Cada registro representa un país que se quiere postular para ser sede del mundial. </br> Cada una de las siguientes N líneas estará formada por 5 números separados por espacios que representan las diferentes características de una sede. Por ejemplo,la fila 15 45000 500 4 800 representa una sede con 15 estadios aprobados por la FIFA, el estadio más pequeño tiene una capacidad de 45000 aficionados, el estadio con mayor altura se encuentra a 500 metros sobre el nivel del mar y su liga local tiene 4 equipos que han ganado títulos internacionales. El capital que está dispuesto a invertir es de800 millones de dólares. |
-| **Salida** | El programa imprimirá el valor que está dispuesto a invertir cada una de las sedes de la base de datos que cumplen con todos los criterios de la FIFA.</br>Si no existe ningún registro en la base de datos que cumpla los criterios de la FIFA, el programa imprimirá 'NO DISPONIBLE'.|
+| **Entrada** | La entrada estará conformada por N + 1 líneas: <br> La primera línea recibirá un número N que equivale a la cantidad de registros en la base de datos de postulantes. Cada registro representa un país que se quiere postular para ser sede del mundial <br> Cada una de las siguientes N líneas estará formada por 5 números separados por espacios que representan las diferentes características de una sede. Por ejemplo,la fila 15 45000 500 4 800 represen <br> una sede con 15 estadios aprobados por la FIFA, el estadio más pequeño tiene una capacidad de 45000 aficionados, el estadio con mayor altura se encuentra a 500 metros sobre el nivel del mar y  <br> liga local tiene 4 equipos que han ganado títulos internacionales. El capital que está dispuesto a invertir es de800 millones de dólares. |
+| **Salida** | El programa imprimirá el valor que está dispuesto a invertir cada una de las sedes de la base de datos que cumplen con todos los criterios de la FIFA. <br> Si no existe ningún registro en la base de datos que cumpla los criterios de la FIFA, el programa imprimirá 'NO DISPONIBLE'.|
 ### Instrucciones para la calificación automática
 
-Antes de enviar la solución del reto, por favor tenga en cuenta los siguientes aspectos:
-
-Cada línea debe contener los valores de los parámetros separados por un espacio.
-
-Es importante no utilizar ningún mensaje a la hora de capturar las entradas, es decir, al utilizar la función input()no agregue ningún texto para capturar los datos.
-
-El resultado ´NO DISPONIBLE´ siempre debe imprimirse en mayúscula.
-
-Los números no deben llevar separador de miles ni decimales.
+Antes de enviar la solución del reto, por favor tenga en cuenta los siguientes aspectos: <br> Cada línea debe contener los valores de los parámetros separados por un espacio <br> Es importante no utilizar ningún mensaje a la hora de capturar las entradas, es decir, al utilizar la función input()no agregue ningún texto para capturar los datos <br> El resultado ´NO DISPONIBLE´ siempre debe imprimirse en mayúscula <br> Los números no deben llevar separador de miles ni decimales.
 
 ### Casos de prueba
 
 | | |
 | --- | --- |
-| **Entradas de ejemplo** | 6 </br> 12 35000 700 3 110 </br> 12 25000 1900 1 110 </br>12 30000 1700 3 80 </br>10 30000 1500 1 100 </br>10 35000 1100 3 90 </br>10 25000 0 1 100 </br> 5 </br> 14 40000 2200 1 80 </br> 12 30000 2400 3 80 </br> 10 35000 400 3 100 </br> 12 40000 1000 2 90 </br> 10 25000 1300 1 100 </br> 3 </br> 10 30000 1600 1 90 </br> 12 35000 1700 3 100 </br> 12 25000 200 1 110 |
-| **Salida de ejemplo** |  	110 </br> NO DISPONIBLE </br> NO DISPONIBLE |
+| **Entradas de ejemplo** | 6 </br> 12 35000 700 3 110 </br> 12 25000 1900 1 110 </br>12 30000 1700 3 80 </br>10 30000 1500 1 100 </br>10 35000 1100 3 90 </br>10 25000 0 1 100 </br> 5 </br> 14 40000 2200 1 80 </br> 12 30000 2400 3 80 </br> 10 35000 400 3 100 </br> 12 40000 1000 2 90 </br> 10 25000 1300 1 100 </br> 3 </br> 10 30000 1600 1 90 </br> 12 35000 1700 3 100 </br> 12 25000 200 1 110  <br> 6  <br> 12 35000 700 3 110  <br> 12 25000 1900 1 110  <br> 12 30000 1700 3 80  <br> 10 30000 1500 1 100  <br> 10 35000 1100 3 90  <br> 10 25000 0 1 100 <br> 5  <br> 14 40000 2200 1 80 <br> 12 30000 2400 3 80 <br> 10 35000 400 3 100 <br> 12 40000 1000 2 90 <br> 10 25000 1300 1 100 <br> 3 <br> 10 30000 1600 1 90 <br> 12 35000 1700 3 100 <br> 12 25000 200 1 110  <br> 4 <br> 14 40000 100 1 80 <br> 12 40000 300 3 100 <br> 12 35000 1400 2 100 <br> 14 25000 1700 2 80 <br> 6 <br> 14 25000 900 3 90 <br> 12 25000 1900 1 80 <br> 14 40000 1600 3 110 <br> 14 30000 400 1 110 <br> 12 35000 1900 3 80 <br> 12 30000 600 2 90 <br> 3 <br> 12 35000 400 2 90 <br> 10 25000 1400 2 100 <br> 12 30000 1700 1 90|
+| **Salida de ejemplo** |  	110 </br> NO DISPONIBLE </br> NO DISPONIBLE <br> 110 <br> NO DISPONIBLE <br> NO DISPONIBLE <br> 100 <br> NO DISPONIBLE <br> NO DISPONIBLE|

@@ -28,21 +28,16 @@ Luego de considerar toda esta información, Camilo decide construir un programa 
 
 | | |
 | --- | --- |
-| **Entrada** | El programa recibirá 3 parámetros: El salario base del empleado. La cantidad de horas extras se representa a través de un número entero positivo. En caso de no realizar horas extras durante el mes, se ingresará el valor 0.Si hubo bonificaciones se ingresará el valor 1, de lo contrario el valor 0.|
-| **Salida** | 	El programa debe imprimir 2 valores: El valor a pagar al empleado luego de realizar los descuentos de ley. El resultado debe imprimirse con un número decimal. El salario total del empleado antes de descuentos. El resultado debe imprimirse con un número decimal. |
+| **Entrada** | El programa recibirá 3 parámetros: <br> El salario base del empleado <br> La cantidad de horas extras se representa a través de un número entero positivo. En caso de no realizar horas extras durante el mes, se ingresará el valor 0 <br> Si hubo bonificaciones se ingresará el valor 1, de lo contrario el valor 0.|
+| **Salida** | El programa debe imprimir 2 valores: <br> El valor a pagar al empleado luego de realizar los descuentos de ley. El resultado debe imprimirse con un número decimal <br> El salario total del empleado antes de descuentos. El resultado debe imprimirse con un número decimal.|
 
 ### Instrucciones para la calificación automática
 
-Antes de enviar la solución del reto, por favor tenga en cuenta los siguientes aspectos:
-Cada caso de prueba se especifica en una única línea.
-Cada línea debe contener los valores de los parámetros separados por un espacio.
-Es importante no utilizar ningún mensaje a la hora de capturar las entradas, es decir, al utilizar la función input()no agregue ningún texto para capturar los datos.
-Como ejemplo considere el caso de prueba 1000000 0 0, el cual corresponde a un trabajador con una salario base de 1000000 con 0 horas extras y sin bonificaciones.
-El resultado debe imprimirse con un número decimal.
+Antes de enviar la solución del reto, por favor tenga en cuenta los siguientes aspectos: <br> Cada caso de prueba se especifica en una única línea <br> Cada línea debe contener los valores de los parámetros separados por un espacio <br> Es importante no utilizar ningún mensaje a la hora de capturar las entradas, es decir, al utilizar la función input()no agregue ningún texto para capturar los datos <br> Como ejemplo considere el caso de prueba 1000000 0 0, el cual corresponde a un trabajador con una salario base de 1000000 con 0 horas extras y sin bonificaciones <br> El resultado debe imprimirse con un número decimal.
 
 ### Casos de prueba
 
 | | |
 | --- | --- |
-| **Entradas de ejemplo** | 1000000 0 0 </br> 2355255 2 1 |
-| **Salida de ejemplo** | 885000.0 1000000.0 </br> 2171685.0 2453881.3 |
+| **Entradas de ejemplo** | 1000000 0 0 </br> 2355255 2 1 <br> 1000000 0 0 <br> 2355255 2 1 <br> 1000000 5 0 <br> 1501500000.25 3 1 <br> 00.0 0.0 <br> 10.9 1.0 |
+| **Salida de ejemplo** | 885000.0 1000000.0 </br> 2171685.0 2453881.3 <br> 885000.0 1000000.0 <br> 2171685.0 2453881.3 <br> 922335.9 1042187. <br> 1394290.1 1575469.0 <br> 0.0 0.0 <br> 0.9 1.0 |
