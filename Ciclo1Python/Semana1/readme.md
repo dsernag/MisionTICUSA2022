@@ -1,4 +1,4 @@
-# Ejercicio 1 [Solución](sol)
+# Ejercicio 1 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana1/Ejercicio1.py)
 ## Operaciones matemáticas con números en Python
 
 ### Enunciado
@@ -9,7 +9,7 @@ Realiza un programa que cumpla con el siguiente algoritmo, utilizando siempre qu
 Para la solución de este problema, se requiere que el usuario ingrese un número entero y el sistema realice el cálculo respectivo para hallar la multiplicación. Para esto se debe usar la siguiente expresión. (multiplicación = numero_usuario X numero_magico). Por último, realizar la impresión por pantalla de la multiplicación.
 ___
 
-# Reto 1 [Solución](sol)
+# Reto 1 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana1/Reto1.py)
 ## Calculando los descuentos sobre mi salario
 
 ### Enunciado
