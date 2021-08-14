@@ -8,8 +8,8 @@ La formación consiste en 4 ciclos de 5 semanas cada uno. A continuación se mue
 
 ## 1) Fundamentos de Programación en Python
 
-* [Semnana 1:](https://github.com/dsernag/misionTicUSAPython/tree/main/Semana1) Introducción a la computación
-* [Semnana 2:](https://github.com/dsernag/misionTicUSAPython/tree/main/Semana2) Introducción a los algoritmos
+* [Semnana 1:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana1) Introducción a la computación
+* [Semnana 2:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana2) Introducción a los algoritmos
 * [Semnana 3:](Manejo de estructuras de control de flujo)
 * [Semnana 4:](Manejo de funciones)
 * [Semnana 5:](Persistencia de datos en Python)
