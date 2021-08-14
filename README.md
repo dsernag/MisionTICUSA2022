@@ -10,9 +10,15 @@ La formación consiste en 4 ciclos de 5 semanas cada uno. A continuación se mue
 
 * [Semnana 1:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana1) Introducción a la computación
 * [Semnana 2:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana2) Introducción a los algoritmos
-* [Semnana 3:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana3)Manejo de estructuras de control de flujo
-* [Semnana 4:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana4)Manejo de funciones
-* [Semnana 5:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana5)Persistencia de datos en Python
+* [Semnana 3:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana3) Manejo de estructuras de control de flujo
+* [Semnana 4:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana4) Manejo de funciones
+* [Semnana 5:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana5) Persistencia de datos en Python
 ___
 
 ## 2) Programación básica en Java
+
+```
+...
+...
+En proceso
+```

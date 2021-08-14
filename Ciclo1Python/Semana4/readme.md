@@ -1,4 +1,4 @@
-# Ejercicio 8 | [Solución 8](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana3/Ejercicio8.py)
+# Ejercicio 8 | [Solución 8](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana4/Ejercicio8.py)
 ## Manejo de String
 ### Enunciado
 Escriba una función que indique si una frase es palíndroma. Una frase es palíndroma si se lee igual de derecha a izquierda que de izquierda a derecha, pero obviando los espacios en blanco y los signos de puntuación. Por ejemplo, las cadenas: Sé verla al revés, Anita lava la tina, luz azul contienen frases palíndromas.
@@ -6,7 +6,7 @@ Escriba una función que indique si una frase es palíndroma. Una frase es palí
 ### Instrucciones
 Para solucionar este problema, se requiere que el usuario escriba una función que reciba como parámetro un String, sin espacios ni signos de puntuación. La función debe reconocer si el String dado como parámetro es una frase palíndroma. Si la frase es palíndroma la función retorna True, si es no retorna False.
 ___
-# Ejercicio 9 | [Solución 9](SOL)
+# Ejercicio 9 | [Solución 9](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana4/Ejercicio9.py)
 ## Manejo de Tuplas
 ### Enunciado
 Realiza un programa que siga las siguientes instrucciones: Crea un conjunto llamado usuarios con los usuarios Marta, David, Elvira, Juan y Marcos Crea un conjunto llamado administradores con los administradores Juan y Marta. Borra al administrador Juan del conjunto de administradores. Añade a Marcos como un nuevo administrador, pero no lo borres del conjunto de usuarios. Muestra todos los usuarios por pantalla de forma dinámica, además debes indicar si cada usuario es administrador o no. Nota: Los conjuntos se pueden recorrer dinámicamente utilizando el bucle for de forma similar a una lista. También cuentan con un método llamado .discard(elemento) que sirve para borrar un elemento.
@@ -14,7 +14,7 @@ Realiza un programa que siga las siguientes instrucciones: Crea un conjunto llam
 ### Instrucciones
 Para solucionar este problema, el usuario debe crear las siguientes estructuras: usuarios = {Marta, David, Elvira, Juan, Marcos} administradores = {Juan, Marta} Usando un ciclo debe indicar quién es el administrador y quién no es administrador. Imprima el resultado por pantalla
 ___
-# Ejercicio 10 | [Solución 10](SOL)
+# Ejercicio 10 | [Solución 10](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana4/Ejercicio10.py)
 ## Manejo de Listas
 ### Enunciado
 Durante la planificación de un proyecto se han acordado una lista de tareas. Para cada una de estas tareas se ha asignado un orden de prioridad (cuanto menor es el número de orden, más prioridad). Crear una estructura del tipo cola con todas las tareas ordenadas pero sin los números de orden. Las tareas son las siguientes. tareas = [ [6, Distribución], [2, Diseño], [1, Concepción], [7, Mantenimiento], [4, Producción], [3, Planificación], [5, Pruebas] ] Nota: Para ordenar automáticamente una lista es posible utilizar el método .sort(.
@@ -22,7 +22,7 @@ Durante la planificación de un proyecto se han acordado una lista de tareas. Pa
 ### Instrucciones
 Para solucionar este problema, se requiere que el usuario crea la siguiente lista tareas = [ [6, Distribución], [2, Diseño], [1, Concepción], [7, Mantenimiento], [4, Producción], [3, Planificación], [5, Pruebas] ] Con la lista creada, debe imprimir los elementos de la lista. Utilice la librería deque importándola de la siguiente manera: from collections import deque. Luego ordene los elementos por prioridad y finalmente imprima la lista ordenada. 
 ___
-# Ejercicio 11 | [Solución 11](SOL)
+# Ejercicio 11 | [Solución 11](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana4/Ejercicio11.py)
 ## Manejo de Diccionarios
 ### Enunciado
 Durante el desarrollo de un pequeño videojuego hay que configurar y balancear cada clase de personaje jugable. Partiendo que la estadística base es 2, debe cumplir las siguientes condiciones: El caballero tiene el doble de vida y defensa que un guerrero. El guerrero tiene el doble de ataque y alcance que un caballero. El arquero tiene la misma vida y ataque que un guerrero, pero la mitad de su defensa y el doble de su alcance. Escribir un programa que muestre como quedan las propiedades de los tres personajes. Utilice los siguientes diccionarios: caballero = { vida:2, ataque:2, defensa: 2, alcance:2 } guerrero = { vida:2, ataque:2, defensa: 2, alcance:2 } arquero = { vida:2, ataque:2, defensa: 2, alcance:2 }
