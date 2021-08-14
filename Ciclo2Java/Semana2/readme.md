@@ -64,6 +64,7 @@ Usted es contratado para desarrollar el sistema de inventario con las funcionali
 | 10 | Jamon | 11000.0 | 55 |
 
 Tabla 1: Productos disponibles en la tienda.
+
 <br>
 Su misión es implementar todas las funcionalidades presentadas en el diagrama de casos de uso. Para esto es necesario construir 3 métodos que representen las operaciones de agregar, actualizar y eliminar. Estas funciones deben implementar una clase con el nombre BaseDatosProductos que contenga el HashMap listaProductos.
 
