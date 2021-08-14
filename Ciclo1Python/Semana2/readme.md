@@ -14,7 +14,7 @@ Siguiendo la recomendaciones de PEP 8, describir y solucionar el error del sigui
 ### Instrucciones
 Para solucionar este problema, el usuario deberá asegurarse que el bloque de instrucciones tenga en cuenta las sugerencias de PEP8, identifique si el problema es de indentación, máxima longitud de línea, líneas en blanco, espacios en blanco, codificación de archivo fuente. Escriba correctamente el código para obtener un resultado que cumpla con la condición.
 ___
-# Reto 2 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana2/Reto3.py)
+# Reto 2 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana2/Reto2.py)
 ## Récords de la Fórmula 1
 
 ### Enunciado
