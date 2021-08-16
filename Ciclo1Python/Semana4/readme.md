@@ -30,7 +30,7 @@ Durante el desarrollo de un pequeño videojuego hay que configurar y balancear c
 ### Instrucciones
 Para solucionar este problema, se requiere que el usuario escriba los siguientes diccionarios caballero = { vida:2, ataque:2, defensa: 2, alcance:2 } guerrero = { vida:2, ataque:2, defensa: 2, alcance:2 } arquero = { vida:2, ataque:2, defensa: 2, alcance:2 } Para hacer el balanceo, se debe asignar los valores según la descripción el personaje. Ejemplo: caballero[vida] = guerrero[vida] * 2 Al final imprima el resultado después de operar los personajes.
 ___
-# Ejercicio 12 | [Solución 12](SOL)
+# Ejercicio 12 | [Solución 12](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana4/Ejercicio12.py)
 ## Manejo Excepciones python
 ### Enunciado
 Realizar una función llamada agregar_una_vez() que reciba una lista y un elemento. La función debe añadir el elemento al final de la lista con la condición de no repetir ningún elemento. Además, si este elemento ya se encuentra en la lista se debe invocar un error de tipo ValueError que debe capturar y mostrar este mensaje en su lugar: Error: Imposible añadir elementos duplicados => [elemento]. Utilice la lista de elemento elementos = [1, 5, -2]
@@ -38,7 +38,7 @@ Realizar una función llamada agregar_una_vez() que reciba una lista y un elemen
 ### Instrucciones
 Para solucionar este problema, el usuario debe crear una funciona llamada agregar_una_vez() que reciba como parámetros una lista. Se puede definir como: elementos = [1, 5, -2] y un numero llamado (el). Capturar el error usando ValueError y mostrar el mensaje Error: Imposible añadir elementos duplicados” Como ejemplo utilice los siguiente llamados a la función: agregar_una_vez(elementos, 10) agregar_una_vez(elementos, -2) agregar_una_vez(elementos, Hola) print(elementos)
 ___
-# Ejercicio 13 | [Solución 13](SOL)
+# Ejercicio 13 | [Solución 13](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana4/Ejercicio13.py)
 ## Ejercicios de refuerzo
 ### Enunciado
 Escriba una función que dado un numero diga si el numero es primo o no es primo. Un numero primo es un numero que solo es divisible por 1 y por si mismo. Ejemplo, 11 es primo por que al dividirlo por 1 y por 11 su residuo es 0. En caso contrario su residuo es diferente de 0. Si el numero es primo, la función debe retorna un mensaje que diga “Es primo”. Si el numero no es primo, la función debe retornan un mensaje que diga “No es primo”.
@@ -46,7 +46,7 @@ Escriba una función que dado un numero diga si el numero es primo o no es primo
 ### Instrucciones
 Para solucionar este problema, el usuario debe crear una funciona llamada num_primo(n) que reciba como parámetro un numero n. El número debe ser un numero natural mayor que 2. La función debe retornar mensajes por pantalla que diga si el numero es primo o no es primo. Ejemplo; nun_primo(11) Es primo nun_primo(12) No es primo
 ___
-# Ejercicio 14 | [Solución 14](SOL)
+# Ejercicio 14 | [Solución 14](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana4/Ejercicio14.py)
 # Ejercicios de refuerzo
 ## Enunciado
 Escriba una función que dado un numero n calcule sus factores primos. La función debe retornar una lista con los números primos que descomponen el numero n. Ejemplo si n= 100, la descomposición en factores primos es [2,2,5,5]
@@ -54,7 +54,7 @@ Escriba una función que dado un numero n calcule sus factores primos. La funci�
 ### Instrucciones
 Para solucionar este problema, el usuario debe crear una función llamada factores(n). Debe retorna una lista con los factores primos del numero dado. El número debe ser un numero natural mayor que 2. Por ejemplo, si n=100, la operación de descomposición es: 100/2 = 50 50/2= 25 25/5= 5 5/5 = 1 La lista que retorna la función factores(n) es [2,2,5,5] Por ejemplo, si el numero es primo entonces la función factores(n) devuelve una lista con un solo elemento 11/11=1 La lista retorna [11]
 ___
-# Ejercicio 15 | [Solución 15](SOL)
+# Ejercicio 15 | [Solución 15](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana4/Ejercicio15.py)
 ## Ejercicios de refuerzo
 ### Enunciado
 Escriba una función que encuentre el máximo común divisor de dos numero naturales dados. En matemáticas, se define el máximo común divisor (abreviado gdc) de dos números naturales al mayor número entero que los divide sin dejar residuo alguno (sin que sobre algún número). Por ejemplo, el máximo común divisor de 48 y 60 es 12
@@ -63,7 +63,7 @@ Escriba una función que encuentre el máximo común divisor de dos numero natur
 Para Solucionar este problema el usuario de escribir una función que se llame gdc(m,n), que retorne el máximo común divisor de los números m,n. Los números m y n deben ser numeros naturales mayores a 1. Por ejemplo, el máximo común divisor de 48 y 60 se calcula a continuación: 48/2=24 24/2=12 12/2=6 6/2= 3 3/3=1 48=2*2*2*2*3 60/2= 30 30/2=15 15/3=5 5/5=1 60=2*2*3*5 El máximo común divisor son los factores comunes con su menor exponente: gdc(48,60)=2*2*3=12
 ___
 
-# Reto 4 | [Solución Reto 4](SOL)
+# Reto 4 | [Solución Reto 4](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana4/Reto4.py)
 ## Detectando fraude en los talleres de matemáticas
 ### Enunciado
 Uno de los profesores de matemáticas de la Universidad Sergio Arboleda está comenzando a tener problemas con su memoria. Hace algún tiempo, cuando comenzó a trabajar como profesor, no únicamente recordaba los nombres y apellidos de todos sus estudiantes, sino que además contaba con una habilidad increíble para detectar fraude en los talleres de matemáticas. Estaba tan seguro de sus capacidades que mientras los estudiantes se concentraban en analizar y resolver problemas, él se sentaba en la última fila del salón a preparar futuras clases sin preocuparse por los intentos de algunos estudiantes por hacer trampa.
