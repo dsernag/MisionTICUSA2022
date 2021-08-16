@@ -8,17 +8,17 @@ La formación consiste en 4 ciclos de 5 semanas cada uno. A continuación se mue
 
 ## 1) Fundamentos de Programación en Python
 
-* [Semnana 1:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana1) Introducción a la computación
-* [Semnana 2:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana2) Introducción a los algoritmos
-* [Semnana 3:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana3) Manejo de estructuras de control de flujo
-* [Semnana 4:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana4) Manejo de funciones
-* [Semnana 5:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana5) Persistencia de datos en Python
+* [Semana 1:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana1) Introducción a la computación
+* [Semana 2:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana2) Introducción a los algoritmos
+* [Semana 3:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana3) Manejo de estructuras de control de flujo
+* [Semana 4:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana4) Manejo de funciones
+* [Semana 5:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo1Python/Semana5) Persistencia de datos en Python
 ___
 
 ## 2) Programación básica en Java
 
-* [Semnana 1:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana1) Introducción a Java
-* [Semnana 2:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana2) Programación orientada a objetos
-* [Semnana 3:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana3) Interfaz gráfica con Swing
-* [Semnana 4:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana4) Bases de datos relacionales con MySQL
-* [Semnana 5:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana5) Arquitectura MVC
+* [Semana 1:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana1) Introducción a Java
+* [Semana 2:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana2) Programación orientada a objetos
+* [Semana 3:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana3) Interfaz gráfica con Swing
+* [Semana 4:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana4) Bases de datos relacionales con MySQL
+* [Semana 5:](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana5) Arquitectura MVC
