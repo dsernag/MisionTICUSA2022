@@ -1,116 +1,102 @@
-# Ejercicio 1 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio1.java)
-## Introducción a JAVA
+# Ejercicio 1 | Introducción a JAVA |[Solución 1](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio1.java)
 ### Enunciado
 Escriba un programa que pida al usuario que introduzca su nombre y su edad, y muestre con dichos datos, un mensaje de bienvenida.
 
 ### Instrucciones
 El programa debe nombrarse igual que la clase principal. La clase principal debe poder solicitar por consola una cadena de caracteres con el nombre y una cadena de caracteres con la edad. El resultado debe ser la impresión de una cadena con el Mensaje "Hola nombre tienes edad años"
 ___
-# Ejercicio 2 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio2.java)
-## Conversión de moneda
+# Ejercicio 2 | Conversión de moneda | [Solución 2](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio2.java)
 ### Enunciado
 Escriba un programa que realice la conversión de dólares a pesos colombianos. Para ello, pedirá al usuario que introduzca los dólares a convertir y mostrará por consola la equivalencia en pesos de dicha cantidad, sabiendo que 1 dólar = 3500 pesos.
 
 ### Instrucciones
 El programa debe nombrarse igual que la clase principal. La clase principal debe poder solicitar por consola una cantidad en dólares. El resultado debe ser la impresión de una cadena con el mensaje dolar + " dolar = " + peso + " pesos"
 ___
-# Ejercicio 3 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio3.java)
-## Cálculos aritméticos
+# Ejercicio 3 | Cálculos aritméticos | [Solución 3](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio3.java)
 ### Enunciado
 Escriba un programa que calcule áreas de triángulos. Para ello pedirá al usuario que introduzca la base y la altura y realizará el cálculo necesario para calcular el área, sabiendo que: Área = (base x altura) / 2
 
 ### Instrucciones
 El programa debe nombrarse igual que la clase principal. La clase principal debe poder solicitar por consola dos cantidades. El resultado debe ser la impresión de una operación aritmética de las cantidades otorgadas por el usuario
 ___
-# Ejercicio 4 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio4.java)
-## Condicionales 1
+# Ejercicio 4 | Condicionales 1 | [Solución 4](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio4.java)
 ### Enunciado
 Escribe un programa que pida al usuario un número y muestre por pantalla si es negativo y múltiplo de 3 o si no lo es.
 
 ### Instrucciones
 El programa debe nombrarse igual que la clase principal. La clase principal debe poder solicitar por consola un número entero. El resultado debe ser la impresión de una operación de comparación para saber si el número es negativo y si es múltiplo de 3
 ___
-# Ejercicio 5 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio5.java)
-## Condicionales 2
+# Ejercicio 5 | Condicionales 2 | [Solución 5](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio5.java)
 ### Enunciado
 Escriba un programa que lea una nota numérica y devuelva la calificación a la que corresponde, sabiendo que: 0 <= nota < 3: Deficiente 3 <= nota < 5: Insuficiente 5 <= nota < 6: Suficiente 6 <= nota < 7: Bien 7 <= nota < 9: Excelente 9 <= nota <=10: Sobresaliente
 
 ### Instrucciones
 El programa debe nombrarse igual que la clase principal. La clase principal debe poder solicitar por consola un número decimal con una nota entre 0 y 10. El resultado debe ser la impresión de una comparación para saber el valor cualitativo (“Descripción del resultado: Deficiente, Insuficiente, Suficiente, Bien, Excelente, Sobresaliente ”) de la nota. Al ingresar el valor por consola, un decimal debe ir con coma.
 ___
-# Ejercicio 6 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio6.java)
-## Condicionales 3
+# Ejercicio 6 | Condicionales 3 | [Solución 6](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio6.java)
 ### Enunciado
 Escriba un programa que pregunte por el precio de un producto y el número de unidades que se desea comprar. A partir de esos datos, es necesario calcular el precio final, sabiendo que se aplica un descuento según los siguientes condicionantes: Si el costo de la compra es menor de 100, el cliente no tiene derecho a descuento. Si el costo de la compra sobrepasa 200, el descuento será del 15%. En cualquier otro caso, el descuento será del 10%.
 
 ### Instrucciones
 El programa debe nombrarse igual que la clase principal. La clase principal debe poder solicitar por consola un número entero que represente el valor de la compra y el número de unidades de esa compra. El resultado debe ser la impresión del valor final del producto, considerando si tiene o no descuento
 ___
-# Ejercicio 7 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio7.java)
-## Ciclo For 1
+# Ejercicio 7 | Ciclo For 1 | [Solución 7](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio7.java)
 ### Enunciado
 Escriba un programa que muestre por pantalla todos los múltiplos de 5 entre 1 y 100.
 
 ### Instrucciones
 El programa debe nombrarse igual que la clase principal. La clase principal debe imprimir por consola la lista de los números múltiplos de 5, correspondiente al intervalo 1-100
 ___
-# Ejercicio 8 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio8.java)
-## Ciclo For 2
+# Ejercicio 8 | Ciclo For 2 | [Solución 8](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio8.java)
 ### Enunciado
 Escriba un programa que solicite al usuario que introduzca el número de alumnos de una clase. A continuación, haciendo uso de un bucle, pedir la altura de cada uno de los alumnos. El programa debe mostrar: Número de alumnos con altura mayor a 1,80. Número de alumnos con altura menor a 1,80. El promedio de alturas de la clase.
 
 ### Instrucciones
 El programa debe nombrarse igual que la clase principal. La clase principal debe solicitar por consola el número de alumnos de una clase. Luego debe pedir por consola la altura de los alumnos. Para esto debe usar un bucle que solicite los datos de la altura, hasta el número de alumnos que ingreso en la primera parte. El programa debe imprimir los datos solicitados.
 ___
-# Ejercicio 9 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio9.java)
-## Cadenas 1
+# Ejercicio 9 | Cadenas 1 | [Solución 9](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio9.java)
 ### Enunciado
 Escriba un programa de cargue una cadena por teclado. Mostrar a continuación por pantalla cuantos espacios en blanco se ingresaron.
 
 ### Instrucciones
 El programa debe nombrarse igual que la clase principal. La clase principal debe solicitar por consola una cadena de caracteres que contenga espacios en blanco. El programa debe contar cuantos espacios en blancos hay en la cadena para imprimirlos por consola.
 ___
-# Ejercicio 10 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio10.java)
-## Cadenas 2
+# Ejercicio 10 | Cadenas 2 | [Solución 10](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio10.java)
 ### Enunciado
 Escriba un programa que valide contraseñas. Una contraseña será válida cuando tenga entre 10 y 20 caracteres y contenga alguno de los 3 siguientes caracteres: *,-,_. En caso de que la contraseña no sea válida, mostrar mensaje de error.
 
 ### Instrucciones
 El programa debe nombrarse igual que la clase principal. La clase principal debe solicitar por consola una cadena de caracteres que contenga una cadena entre 10 y 20 caracteres. Además, la cadena debe tener `*-_`. El programa debe validar la cadena e imprimir por pantalla la condición evaluada.
 ___
-# Ejercicio 11 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio11.java)
-## Ciclo While 1
+# Ejercicio 11 | Ciclo While 1 | [Solución 11](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio11.java)
 ### Enunciado
 Escriba un programa que lea números constantemente mientras no se introduzca un 0. El programa debe mostrar cuantos de los números introducidos son pares y cuantos impares.
 
 ### Instrucciones
 El programa debe nombrarse igual que la clase principal. La clase principal debe solicitar por consola diferentes números enteros positivos, hasta que se introduzca el cero (0). Luego debe imprimir la cantidad de números pares introducidos y la cantidad de números impares introducidos.
 ___
-# Ejercicio 12 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio12.java)
-## Ciclo While 2
+# Ejercicio 12 | Ciclo While 2 | [Solución 12](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio12.java)
 ### Enunciado
 Escriba un programa que lea notas comprendidas entre 0 y 10 hasta que se introduzca una nota no válida. El programa debe mostrar la nota válida más alta y la más baja.
 
 ### Instrucciones
 El programa debe nombrarse igual que la clase principal. La clase principal debe solicitar por consola diferentes números de notas entre 0 y 10, hasta que se introduzca una nota no válida, es decir, menor a cero o mayor a 10. Luego debe imprimir la nota más alta y la nota más baja
 ___
-# Ejercicio 13 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio13.java)
-## Arreglos 1
+# Ejercicio 13 | Arreglos 1 | [Solución 13](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio13.java)
 ### Enunciado
 Escriba un programa que cree e inicialice un Array de 10 elementos enteros con valores aleatorios entre 1 y 10. A continuación debe imprimir el contenido del Array y la suma de todos sus elementos.
 
 ### Instrucciones
 El programa debe nombrarse igual que la clase principal. La clase principal debe tener una función que genera aleatoriamente números enteros en entre 1 y 10. Cada número generado aleatoriamente debe guardarse en una posición del arreglo. Después debe sumar los números que están en el arreglo y debe imprimir los números del arreglo y el valor de la suma
 ___
-# Ejercicio 14 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio14.java)
-## Arreglos 2
+# Ejercicio 14  | Arreglos 2 | [Solución 14](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Ejercicio14.java)
 ### Enunciado
 Contexto: la información académica de los alumnos de una determinada asignatura se encuentra almacenada en una matriz. Cada fila de la matriz guarda las notas de un alumno. La primera posición indica el nombre del alumno, las dos siguientes la nota de los exámenes de teoría y el siguiente la nota del examen de prácticas. La nota final se calcula de la siguiente forma: NF = Teoría 40% + Práctica 60% Escriba un programa en el que definas una matriz como la anterior y muestre para cada alumno si ha aprobado o suspendido la asignatura.
 
 ### Instrucciones
 El programa debe nombrarse igual que la clase principal. La clase principal debe tener una forma para crear una matriz. Los nombres y notas de los estudiantes se guardan desde el código. El rango de notas es entre 0 y 10. Una vez guardada la información en la matriz, se debe recorrer la matriz para hacer los cálculos correspondientes a los valores porcentuales de las notas. Por último se debe imprimir por consola el resultado de la computación de las notas. Un alumno aprueba si la nota es mayor o igual que 5.
 ___
-# Reto 1 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Reto1.java)
+# Reto 1 [Solución Reto 1](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana1/Reto1.java)
 ## Índice de masa corporal (IMC)
 
 ### Enunciado

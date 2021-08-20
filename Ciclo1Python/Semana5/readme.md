@@ -1,5 +1,4 @@
-# Ejercicio 16 | [Solución 16](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana5/personas.py)
-## Manejo de archivos Python
+# Ejercicio 16 | Manejo de archivos Python | [Solución 16](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana5/personas.py)
 ### Enunciado
 Crear un programa llamado personas.py que lea los datos de un archivo de texto y que transforme cada fila en un diccionario y lo añada a una lista llamada personas. Luego recorre las personas de la lista y para cada una muestra de forma amigable todos sus campos. Se debe crear el archivo personas.txt que contenga la siguiente información: 1;Carlos;Pérez;05/01/1989 2;Manuel;Hernandez;26/12/1983 3;Rosa;Campos;12/06/1971 4;David;García;25/07/2006 Los campos del diccionario serán por orden: id, nombre, apellido y nacimiento.
 
@@ -8,8 +7,7 @@ Para solucionar este problema, el usuario debe crear en una misma carpeta dos ar
 
 ___
 
-# Reto 5 | [Solución Reto 5](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana5/Reto5.py)
-## Inventario para un supermercado de víveres
+# Reto 5 | Inventario para un supermercado de víveres | [Solución Reto 5](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana5/Reto5.py)
 ### Enunciado
 La tienda de Andrés vende diferentes productos, usualmente frutas, dulces y algunos tipos de carne. Con el propósito de mejorar el control sobre las ventas y el inventario de la tienda, Andrés decide construir una aplicación que le permita almacenar la información de los productos y realizar algunos cálculos sobre los datos.
 

@@ -1,22 +1,18 @@
-# Ejercicio 2 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana2/Ejercicio2.py)
-## Manejo de tipos de datos en Python
+# Ejercicio 2 | Manejo de tipos de datos en Python | [Solución 2](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana2/Ejercicio2.py)
 ### Enunciado
 Identifica el tipo de dato (int, float, string o list) de los siguientes valores literales:,Para la solución de este problema, se requiere que el usuario ingrese los datos y realice la validación del tipo de dato. Se requiere que se escriba el dato ingresado, se imprima por consola y luego se imprima qué tipo de dato es.
 
 ### Instrucciones
 Para la solución de este problema, se requiere que el usuario ingrese los datos y realice la validación del tipo de dato. Se requiere que se escriba el dato ingresado, se imprima por consola y luego se imprima qué tipo de dato es.
 ___
-# Ejercicio 3 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana2/Ejercicio3.py)
-## Ejercicio PEP 8
+# Ejercicio 3 | Ejercicio PEP 8 | [Solución 3](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana2/Ejercicio3.py)
 ### Enunciado
 Siguiendo la recomendaciones de PEP 8, describir y solucionar el error del siguiente bloque de instrucciones n = 10 if n> 5: print “n es grande”
 
 ### Instrucciones
 Para solucionar este problema, el usuario deberá asegurarse que el bloque de instrucciones tenga en cuenta las sugerencias de PEP8, identifique si el problema es de indentación, máxima longitud de línea, líneas en blanco, espacios en blanco, codificación de archivo fuente. Escriba correctamente el código para obtener un resultado que cumpla con la condición.
 ___
-# Reto 2 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana2/Reto2.py)
-## Récords de la Fórmula 1
-
+# Reto 2 | Récords de la Fórmula 1 | [Solución Reto 2](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana2/Reto2.py)
 ### Enunciado
 
 Con el propósito de mejorar la medición de los récords relacionados con la máxima velocidad alcanzada por un vehículo en un tramo de la pista, los directivos de la Fórmula 1 han decidido implementar radares de tramo para mantener la lista de récords actualizados.

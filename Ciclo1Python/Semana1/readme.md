@@ -1,6 +1,4 @@
-# Ejercicio 1 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana1/Ejercicio1.py)
-## Operaciones matemáticas con números en Python
-
+# Ejercicio 1 | Operaciones matemáticas con números en Python | [Solución 1](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana1/Ejercicio1.py)
 ### Enunciado
 Realiza un programa que cumpla con el siguiente algoritmo, utilizando siempre que sea posible, operadores en asignación: Guarda en una variable numero_magico el valor 12345679 (sin el 8) Asignar a otra variable numero_usuario. Hay que especificar que sea entre 1 y 9 (asegúrate que es un número) Multiplica el numero_usuario por 9 en sí mismo Multiplica el numero_magico por el numero_usuario en sí mismo Finalmente muestra el valor final del numero_magico por pantalla.
 
@@ -9,9 +7,7 @@ Realiza un programa que cumpla con el siguiente algoritmo, utilizando siempre qu
 Para la solución de este problema, se requiere que el usuario ingrese un número entero y el sistema realice el cálculo respectivo para hallar la multiplicación. Para esto se debe usar la siguiente expresión. (multiplicación = numero_usuario X numero_magico). Por último, realizar la impresión por pantalla de la multiplicación.
 ___
 
-# Reto 1 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana1/Reto1.py)
-## Calculando los descuentos sobre mi salario
-
+# Reto 1 | Calculando los descuentos sobre mi salario | [Solución Reto 1](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo1Python/Semana1/Reto1.py)
 ### Enunciado
 Un empleado desea conocer a cuánto dinero equivalen los descuentos exigidos por la ley en relación con los pagos que la compañía para la que trabaja le realiza mensualmente. Con el propósito de verificar el valor total de los descuentos decide construir un programa en Python que le permita verificar el valor de su salario antes y después de realizar los descuentos. Después de consultar sobre la normatividad Colombiana y revisar con detalle su contrato laboral nota que debe tener en cuenta los siguientes aspectos:
 
