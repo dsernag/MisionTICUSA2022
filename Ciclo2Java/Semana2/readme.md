@@ -5,41 +5,36 @@ Crear un programa con la siguiente estructura: • Una clase llamada Cuenta para
 ### Instrucciones
 Para la solución del ejercicio se debe considerar dos archivos. Un archivo llamado main.java en donde estará la clase main, en donde se instancia la clase cuenta. Acá podrá llamar los métodos de, set de cuenta, ingresar y retirar. Los resultados de las operaciones de ingresar y retirar se deben imprimir por pantalla. Por otro lado, debe existir el archivo cuenta.java en donde estarán definidos los atributos y los métodos de la clase cuenta. 
 ___
-# Ejercicio 16 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana2/Ejercicio16.java)
-## Clases 2
+# Ejercicio 16 | Clases 2 | [Solución 16](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana2/Ejercicio16.java)
 ### Enunciado
 Crear un programa con la siguiente estructura: Una clase Libro que contenga los siguientes atributos: isbn, título, autor y número de páginas. Crear sus respectivos métodos getter y setter correspondientes para cada atributo. Crear el método toString para mostrar la información relativa al libro con el siguiente formato: “El libro con ISBN creado por el autor tiene páginas” En el programa main, crear un array de 3 libros. Mostrar la información de cada libro y cual de ellos tiene más páginas.
 
 ### Instrucciones
 Para la solución del ejercicio se debe considerar dos archivos. Un archivo llamado main.java en donde estará la clase main, en donde se instancia la clase libro. Acá podrá llamar los métodos set y get correspondientes a los atributos solicitados. También en la clase principal se debe hacer una comparación del número de paginas de los libros inscritos y debe seleccionar e imprimir por pantalla el libro con más páginas.
 ___
-# Ejercicio 17 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana2/Ejercicio17.java)
-## Clases 3
+# Ejercicio 17 | Clases 3 | [Solución 17](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana2/Ejercicio17.java)
 ### Enunciado
 Crear un programa con la siguiente estructura: Crea una clase Fecha con atributos para el día, mes y año. Crear un método toString, que devolverá la fecha en formato: dd/mm/yyyy. Crea una clase Persona, con atributos para el nombre, los apellidos y la fecha de nacimiento (de tipo Fecha). Crear una clase main, donde se inicialice un arreglo de objetos de tipo Persona con 3 elementos. Para cada uno de ellos, mostrar su fecha de nacimiento.
 
 ### Instrucciones
 Para la solución del ejercicio se debe considerar tres archivos. Un archivo llamado main.java en donde estará la clase main, en donde se instancia las clases Fecha y Persona. Otro archivo con la clase fecha donde se programa el formato de la fecha. Otro archivo con la clase persona que se encarga de definir los atributos para persona.
 ___
-# Ejercicio 18 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana2/Ejercicio18.java)
-## Herencia
+# Ejercicio 18 | Herencia | [Solución 18](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana2/Ejercicio18.java)
+
 ## Enunciado
 Crear un programa con la siguiente estructura: Crear una clase Vehículo con las siguientes propiedades: num_matricula y peso. Los métodos son: impuestoBase(): Depende del peso, y se calcula con la siguiente fórmula: 0,45*peso. Existen dos clases que heredan de Vehículo: Eléctrico y Combustión. El objeto Eléctrico tiene como propiedad precio, y el objeto Combustión la propiedad cilindrada. Los vehículos eléctricos tributan un 9% de su precio más el impuesto base, mientras que los vehículos de combustión tributan el triple de su cilindrada más el impuesto base. Implementar un método en ambas subclases que calculen el impuesto total en ambos casos. Crea una clase main donde se instancien dos vehículos de cada tipo y mostrar el impuesto que se paga por cada uno de ellos.
 
 ### Instrucciones
 Para la solución del ejercicio se debe considerar cuatro archivos. Un archivo llamado main.java en donde estará la clase main, la cual se encarga de la instancia las clases Eléctrico y Combustión. Un archivo con la clase vehículo que contenga los atributos y métodos indicados. Se debe imprimir por pantalla la información de los vehículos con el valor del precio y el valor del impuesto
 ___
-# Ejercicio 19 [Solución](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana2/Ejercicio19.java)
-## Colecciones
+# Ejercicio 19 | Colecciones | [Solución 19](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana2/Ejercicio19.java)
 ### Enunciado
 Escriba un programa que solicite a un alumno que introduzca el nombre de las asignaturas que está cursando y los créditos de dichas asignaturas. Almacenar la información en una colección de tipo Map. Cuando el usuario deje de introducir asignaturas, el programa debe mostrar un mensaje con el número total de créditos que está cursando.
 
 ### Instrucciones
 El programa debe nombrarse igual que la clase principal. La clase principal debe tener una forma para crear una colección que permita guardar el nombre de las asignaturas y sus respectivos créditos.
 ___
-# Reto 2 [Solución Reto 2](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana2/Reto2.java)
-## Inventario para el mini mercado
-
+# Reto 2 | Inventario para el mini mercado | [Solución Reto 2](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana2/Reto2.java)
 ### Enunciado
 Un mini mercado de barrio vende diferentes productos, usualmente frutas, dulces y algunos tipos de carne. Con el propósito de mejorar el control sobre las ventas y el inventario de la tienda, el tendero decide mandar a construir una aplicación que le permita almacenar la información de los productos y realizar algunos cálculos sobre los datos.
 
