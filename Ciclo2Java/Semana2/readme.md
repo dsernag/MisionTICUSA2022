@@ -81,5 +81,5 @@ Antes de enviar la solución del reto, por favor tenga en cuenta los siguientes 
 
 | | |
 | --- | --- |
-| **Entradas de ejemplo** | AGREGAR <br> 11 Melon 70 13 <br> BORRAR <br> 10 Jamon 15000 10 <br> ACTUALIZAR <br> 7 Helado 65000 11 <br> BORRAR <br> 14 Maiz 45000 12|
-| **Salida de ejemplo** | Jamon Melon 5588.2 3504410.0 <br> Arandanos Galletas 5600.0 2898500.0 <br> Helado Galletas 12190.0 4034000.0 <br> ERROR |
+| **Entradas de ejemplo** | AGREGAR <br> 11 Melon 70 13 <br> BORRAR <br> 10 Jamon 15000 10 <br> ACTUALIZAR <br> 7 Helado 65000 11 <br> BORRAR <br> 14 Maiz 45000 12 <br> AGREGAR  <br> 11 Maiz 70000 1  <br> BORRAR  <br> 15 Papa 1500 10 <br> ACTUALIZAR  <br> 15 Papa 1500 10 <br> BORRAR  <br> 3 Peras 2700 33 <br> AGREGAR <br> 3 Peras 2700 33 <br> ACTUALIZAR  <br> 10 Jamon 500 10 |
+| **Salida de ejemplo** | Jamon Melon 5588.2 3504410.0 <br> Arandanos Galletas 5600.0 2898500.0 <br> Helado Galletas 12190.0 4034000.0 <br> ERROR <br> Maiz Galletas 11945.5 3573500.0 <br> ERROR	 <br> ERROR	 <br> Jamon Galletas 6522.2 3328000.0 <br> ERROR <br> Arandanos Jamon 5090.0 2903500.0 |
