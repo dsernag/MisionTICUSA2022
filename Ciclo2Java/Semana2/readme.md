@@ -40,7 +40,7 @@ Un mini mercado de barrio vende diferentes productos, usualmente frutas, dulces 
 
 Luego de discutir por un tiempo sobre lo que debería hacer la aplicación, logran construir el siguiente diagrama de casos de uso.
 
-<img src="https://github.com/dsernag/MisionTICUSA2022/blob/main/imagesjavareto2.png" alt="ExplicacionMiniMercado">
+<img src="https://github.com/dsernag/MisionTICUSA2022/blob/main/images/javareto2.png">
 
 Usted es contratado para desarrollar el sistema de inventario con las funcionalidades presentadas en el diagrama de casos de uso en el lenguaje de programación Java. Debido a que esta es una etapa inicial en el desarrollo de la aplicación, la base de datos será representada temporalmente mediante un HashMap llamado listaProductos que tendrá por llave el código del producto y por valor una instancia de la clase Producto que tendrá como atributos código, nombre, precio e inventario. La Tabla 1 presenta los productos disponibles a la fecha en el almacén.
 
