@@ -96,6 +96,7 @@ El dueño del almacén le entrega el siguiente diseño de la interfaz gráfica (
 
 <img src="https://github.com/dsernag/MisionTICUSA2022/blob/main/images/javareto3.png" alt="DiseñoInterfazGráfica">
 Figura 2. Diseño incial interfaz gráfica.
+<br><br>
 
 Identifique los diferentes paneles que puede contener la interfaz. Recuerde que los paneles servirán comocontenedores para los componentes (Botones, etiquetas, cuadros de texto etc.).
 Luego de declarar los paneles seleccione el Layout más conveniente y agregue los componentes que aparecen en lainterfaz.
