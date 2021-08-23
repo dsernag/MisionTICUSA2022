@@ -94,7 +94,7 @@ Jamon Arandanos Fresas.
 
 El dueño del almacén le entrega el siguiente diseño de la interfaz gráfica (ver figura 2). En el diseño se incluyen las ventanas emergentes que surgen como resultado de realizar algunas validaciones y los aspectos que el desea tener en la interfaz de la aplicación. Su objetivo es construir una interfaz gráfica similar a la presentada en el diseño. Lo más importante es que la interfaz permita incorporar las funcionalidades de ACTUALIZAR, BORRAR, AGREGAR e INFORMES desarrolladas en el reto anterior. Para esto, se sugiere seguir los siguientes pasos:
 
-<img src="https://github.com/dsernag/MisionTICUSA2022/blob/main/imagesjavareto3.png" alt="DiseñoInterfazGráfica">
+<img src="https://github.com/dsernag/MisionTICUSA2022/blob/main/images/javareto3.png" alt="DiseñoInterfazGráfica">
 Figura 2. Diseño incial interfaz gráfica.
 
 Identifique los diferentes paneles que puede contener la interfaz. Recuerde que los paneles servirán comocontenedores para los componentes (Botones, etiquetas, cuadros de texto etc.).
