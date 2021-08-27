@@ -1,4 +1,4 @@
-# Reto 3 | Agregando una interfaz gráfica para el mini mercado | [Solución Reto 3](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana3/Reto3.java) | [Interfaz Reto 3]([Solución Reto 3](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana3/Reto3InterfazNetBeans))
+# Reto 3 | Agregando una interfaz gráfica para el mini mercado | [Solución Reto 3](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana3/Reto3.java) | [Interfaz Reto 3](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana3/Reto3InterfazNetBeans)
 ### Enunciado
 
 En este reto continuaremos trabajando con el sistema de inventario para el mini mercado desarrollado en el Reto 2. Nuestro objetivo es implementar una interfaz gráfica a la cual podamos incorporar las funcionalidades desarrolladas previamente. A continuación, se presenta nuevamente el contexto del problema.
