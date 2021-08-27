@@ -1,5 +1,7 @@
-package Ciclo2Java.Semana2;
+package Ciclo2Java.Semana3;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -7,18 +9,27 @@ import java.util.Scanner;
  * *@author David Serna Clase para almacenar las características del producto
  */
 class Producto {
-    // Codigo producto
+
+    /**
+     * Codigo del producto
+     */
     private int codigo;
-    // Nombre producto
+    /**
+     * Nombre del producto
+     */
     private String nombre;
-    // Precio producto
+    /**
+     * Precio del producto
+     */
     private double precio;
-    // Cantidad producto
+    /**
+     * cantidad del producto
+     */
     private int cantdidad;
 
     /**
      * Constructor Producto
-     * 
+     *
      * @param codigo
      * @param nombre
      * @param precio
@@ -38,7 +49,7 @@ class Producto {
     }
 
     /**
-     * 
+     *
      * @return Código del Producto
      */
     public int getCodigo() {
@@ -104,205 +115,15 @@ class Producto {
 }
 
 /**
- * @author David Serna Clase para almacenar una colección de productos
+ * Clase con la base datos, es un hashmap de clases Productos
+ *
+ * @author David Serna
  */
 class BaseDatosProductos {
-
-    // Base de datos es una clase tipo Hashmap
-    private HashMap<Integer, Producto> lista_Productos = new HashMap<>();
-
-    // Constructor vacío
-    public BaseDatosProductos() {
-    }
-
     /**
-     * Constructor recargado
-     * 
-     * @param lista_Productos La Clase es instanciada mediante un HashMap<Integer,
-     *                        Producto>
-     */
-    public BaseDatosProductos(HashMap<Integer, Producto> lista_Productos) {
-        this.setLista_Productos(lista_Productos);
-    }
-
-    /**
-     * 
-     * @return El hash map con la base de datos
-     */
-    public HashMap<Integer, Producto> getLista_Productos() {
-        return lista_Productos;
-    }
-
-    /**
-     * 
-     * @param lista_Productos Establecer una nueva base de datos
-     */
-    public void setLista_Productos(HashMap<Integer, Producto> lista_Productos) {
-        this.lista_Productos = lista_Productos;
-    }
-
-    /**
-     * Sí la clase es llamada sin ningún método, imprimir la colección completa
-     */
-    @Override
-    public String toString() {
-        String expresion = "";
-        for (Producto i : this.getLista_Productos().values()) {
-            expresion += i.toString() + "\n";
-        }
-        return expresion;
-    }
-
-    /**
-     * 
-     * @param nuevoProducto Clase Producto a agregar
-     */
-    public void agregarProducto(Producto nuevoProducto) {
-        if (this.getLista_Productos().containsKey(nuevoProducto.getCodigo())) {
-            System.out.println("ERROR");
-        } else {
-            this.getLista_Productos().put(nuevoProducto.getCodigo(), nuevoProducto);
-            this.imprimirReporte();
-        }
-
-    }
-
-    /**
-     * 
-     * @param nuevoProducto Clase Producto a borrar
-     */
-    public void borrarProducto(Producto nuevoProducto) {
-        if (!this.getLista_Productos().containsKey(nuevoProducto.getCodigo())) {
-            System.out.println("ERROR");
-        } else if (!this.getLista_Productos().get(nuevoProducto.getCodigo()).getNombre()
-                .equals(nuevoProducto.getNombre())) {
-            System.out.println("ERROR");
-        } else {
-            this.getLista_Productos().remove(nuevoProducto.getCodigo());
-            this.imprimirReporte();
-        }
-    }
-
-    /**
-     * 
-     * @param nuevoProducto Clase Producto a actualizar
-     */
-    public void actualizarProducto(Producto nuevoProducto) {
-        if (!this.getLista_Productos().containsKey(nuevoProducto.getCodigo())) {
-            System.out.println("ERROR");
-        } else if (!this.getLista_Productos().get(nuevoProducto.getCodigo()).getNombre()
-                .equals(nuevoProducto.getNombre())) {
-            System.out.println("ERROR");
-        } else {
-            this.getLista_Productos().replace(nuevoProducto.getCodigo(), nuevoProducto);
-            this.imprimirReporte();
-        }
-    }
-
-    /**
-     * 
-     * @param usuarioEntrada Tipo de operación (Dada por el usuario)
-     * @param datos          Array con los datos (Dada por el usuario)
-     */
-    public void realizarOperacion(String usuarioEntrada, String[] datos) {
-        int codigo = Integer.parseInt(datos[0]);
-        String nombre = datos[1];
-        double precio = Double.parseDouble(datos[2]);
-        int cantidad = Integer.parseInt(datos[3]);
-
-        Producto nuevoProducto = new Producto(codigo, nombre, precio, cantidad);
-
-        if (usuarioEntrada.equals("AGREGAR")) {
-            this.agregarProducto(nuevoProducto);
-        } else if (usuarioEntrada.equals("BORRAR")) {
-            this.borrarProducto(nuevoProducto);
-        } else if (usuarioEntrada.equals("ACTUALIZAR")) {
-            this.actualizarProducto(nuevoProducto);
-        } else {
-            System.out.println("ERROR");
-        }
-    }
-
-    /**
-     * 
-     * @return El producto más costoso
-     */
-    public String productoMayor() {
-        String productoMayor = "";
-        double mayor = 0;
-        for (Producto producto : this.getLista_Productos().values()) {
-            if (producto.getPrecio() > mayor) {
-                mayor = producto.getPrecio();
-                productoMayor = producto.getNombre();
-            }
-        }
-        return productoMayor;
-    }
-
-    /**
-     * 
-     * @return El producto más económico
-     */
-    public String productoMenor() {
-        String productoMenor = "";
-        double menor = 99999999;
-        for (Producto producto : this.getLista_Productos().values()) {
-            if (producto.getPrecio() < menor) {
-                menor = producto.getPrecio();
-                productoMenor = producto.getNombre();
-            }
-        }
-        return productoMenor;
-    }
-
-    /**
-     * 
-     * @return El promedio de precios de todos los productos
-     */
-    public double promedioPrecios() {
-        double suma = 0;
-        int contador = 0;
-        for (Producto producto : this.getLista_Productos().values()) {
-            suma += producto.getPrecio();
-            contador++;
-        }
-        return suma / contador;
-    }
-
-    /**
-     * 
-     * @return El valor tottal del inventario La sumatoria del producto de cada
-     *         producto entre su precio y cantidad.
-     */
-    public double valorInventario() {
-        double valorTotal = 0;
-        for (Producto producto : this.getLista_Productos().values()) {
-            valorTotal += producto.getPrecio() * producto.getCantdidad();
-        }
-        return valorTotal;
-    }
-
-    /**
-     * Imprime el reporte Final
-     */
-    public void imprimirReporte() {
-        System.out.println(this.productoMayor() + " " + this.productoMenor() + " "
-                + String.format("%.1f", this.promedioPrecios()) + " " + String.format("%.1f", this.valorInventario()));
-    }
-}
-
-/**
- * @author Clase para realizar el reto
- */
-public class Reto2 {
-    // Constante para ingresar los datos
-    private static Scanner input = new Scanner(System.in);
-
-    /**
-     * Función para crear la base de datos eficientemente. En el reto 3 este método
-     * se agrega directamente en la clase
-     * 
-     * @return HashMap con los datos iniciales del ejercicio.
+     * Función para crear la base de datos eficientemente
+     *
+     * @return Hashmap instanciado con las entradas.
      */
     private static HashMap<Integer, Producto> GenerarHashMap() {
         int[] codigo = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
@@ -327,22 +148,203 @@ public class Reto2 {
     }
 
     /**
+     * Instanciamos la base de datos que será la clase
+     */
+    private HashMap<Integer, Producto> lista_Productos = GenerarHashMap();
+
+    /**
+     * Constructor vacío
+     */
+    public BaseDatosProductos() {
+    }
+
+    /**
+     * Constructor recargado
+     *
+     * @param lista_Productos
+     */
+    public BaseDatosProductos(HashMap<Integer, Producto> lista_Productos) {
+        this.setLista_Productos(lista_Productos);
+    }
+
+    /**
+     * La clase BaseDatosProductos es este hashmap
+     *
+     * @return El hashmap de esta clase
+     */
+    public HashMap<Integer, Producto> getLista_Productos() {
+        return lista_Productos;
+    }
+
+    /**
+     * Establecer un hashmap nuevo
+     *
+     * @param lista_Productos el hashmap que se instanciará
+     */
+    public void setLista_Productos(HashMap<Integer, Producto> lista_Productos) {
+        this.lista_Productos = lista_Productos;
+    }
+
+    /**
+     * Método para obtener todos los productos
+     *
+     * @return Una cadena de Strings con el inventario
+     */
+    @Override
+    public String toString() {
+        String expresion = "";
+        for (Producto i : this.getLista_Productos().values()) {
+            expresion += i.toString() + "\n";
+        }
+        return expresion;
+    }
+
+    /**
+     *
+     * @param nuevProducto Producto a verificar
+     * @return True or False sí el código está en la BD
+     */
+    public boolean verificarCodigo(Producto nuevProducto) {
+        return this.getLista_Productos().containsKey(nuevProducto.getCodigo());
+    }
+
+    /**
+     *
+     * @param nuevoProducto Producto a verificar
+     * @return True or False sí el Nombre está en la BD o No
+     */
+    public boolean verficarNombre(Producto nuevoProducto) {
+        return this.getLista_Productos().get(nuevoProducto.getCodigo()).getNombre().equals(nuevoProducto.getNombre());
+    }
+
+    /**
      * 
-     * @param args MAIN function
+     * @param nuevoProducto Producto a agregar
+     */
+    public void agregarProducto(Producto nuevoProducto) {
+        if (verificarCodigo(nuevoProducto)) {
+            System.out.println("ERROR");
+        } else {
+            this.getLista_Productos().put(nuevoProducto.getCodigo(), nuevoProducto);
+            this.imprimirReporte();
+        }
+
+    }
+
+    /**
+     * 
+     * @param nuevoProducto Producto a borrar
+     */
+    public void borrarProducto(Producto nuevoProducto) {
+        if (!verificarCodigo(nuevoProducto)) {
+            System.out.println("ERROR");
+        } else if (!verficarNombre(nuevoProducto)) {
+            System.out.println("ERROR");
+        } else {
+            this.getLista_Productos().remove(nuevoProducto.getCodigo());
+            this.imprimirReporte();
+        }
+    }
+
+    /**
+     * @param nuevoProducto Producto a actualizar
+     */
+    public void actualizarProducto(Producto nuevoProducto) {
+        if (!verificarCodigo(nuevoProducto)) {
+            System.out.println("ERROR");
+        } else if (!verficarNombre(nuevoProducto)) {
+            System.out.println("ERROR");
+        } else {
+            this.getLista_Productos().replace(nuevoProducto.getCodigo(), nuevoProducto);
+            this.imprimirReporte();
+        }
+    }
+
+    /**
+     * 
+     * @param usuarioEntrada Agregar, borrar o actualizar
+     * @param nuevoProducto  El producto al que se le realizará la opción
+     */
+    public void realizarOperacion(String usuarioEntrada, String[] datos) {
+        int codigo = Integer.parseInt(datos[0]);
+        String nombre = datos[1];
+        double precio = Double.parseDouble(datos[2]);
+        int cantidad = Integer.parseInt(datos[3]);
+
+        Producto nuevoProducto = new Producto(codigo, nombre, precio, cantidad);
+
+        if (usuarioEntrada.equals("AGREGAR")) {
+            this.agregarProducto(nuevoProducto);
+        } else if (usuarioEntrada.equals("BORRAR")) {
+            this.borrarProducto(nuevoProducto);
+        } else if (usuarioEntrada.equals("ACTUALIZAR")) {
+            this.actualizarProducto(nuevoProducto);
+        } else {
+            System.out.println("ERROR");
+        }
+    }
+
+    /**
+     * 
+     * @return Devuelve una lista con el top de tres productos más costosos
+     */
+    public double[] topTresProductos() {
+        ArrayList<Double> listaPrecios = new ArrayList<>();
+
+        for (Producto producto : this.getLista_Productos().values()) {
+            listaPrecios.add(producto.getPrecio());
+        }
+        Collections.sort(listaPrecios, Collections.reverseOrder());
+        double[] tresPrecios = { listaPrecios.get(0), listaPrecios.get(1), listaPrecios.get(2) };
+        return tresPrecios;
+    }
+
+    /**
+     * 
+     * @return Mensaje con los productos más costosos
+     */
+    public void imprimirReporte() {
+        double[] tresMayores = topTresProductos();
+
+        for (double valor : tresMayores) {
+            for (Producto producto : this.getLista_Productos().values()) {
+                if (valor == producto.getPrecio()) {
+                    System.out.print(producto.getNombre() + " ");
+                }
+            }
+        }
+    }
+}
+
+/**
+ * Clase para realizar el reto
+ */
+public class Reto3 {
+    private static Scanner input = new Scanner(System.in);
+    /**
+     * Main function
+     * @param args
      */
     public static void main(String[] args) {
-        // Instanciar la base inicial:
+        /**
+         * Instanciar la BD Inicial
+         */
         BaseDatosProductos bdInicial = new BaseDatosProductos();
-        bdInicial.setLista_Productos(GenerarHashMap());
 
-        // Solicitar la entrada al usuario =
+        /**
+         * Get tipo de operación a realizar
+         */
         System.out.println("Ingrese la operación a realizar");
         String operacion = input.nextLine();
-        // Solicitar los datos:
+        /**
+         * Get datos del producto
+         */
         System.out.println("Ingrese los datos");
         String[] datos = input.nextLine().split(" ");
 
-        // Correr el método de realizar la operación (dentro se imprime el reporte)
+        /**
+         * Operación a realizar
+         */
         bdInicial.realizarOperacion(operacion, datos);
     }
 
