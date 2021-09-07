@@ -81,8 +81,6 @@ Jamon Arandanos Fresas.
 | **Entrada** |Cada uno de los casos de prueba estará compuesto por dos líneas. <br> La primera línea estará formada por una cadena de texto que identifica la operación a realizar. En este caso, las operaciones válidas son: <br> ACTUALIZAR. <br> BORRAR. <br> AGREGAR. <br> La segunda línea estará formada por 4 valores (código, nombre, precio, inventario) que representan el producto <br> el cual se quiere realizar la operación. <br> En el caso de la operación ACTUALIZAR la segunda línea debe contener el código y los nuevos valores del producto. <br> En el caso de la operación BORRAR se deben especificar todos los atributos del producto a eliminar.|
 | **Salida** |La salida estará representada por una única línea formada por tres valores que representan los tres productos con los precios más altos ordenados de mayor a menor. Los nombres estarán separados por un espacio. <br><br> Estos 3 valores deben imprimirse después de realizar las operaciones solicitadas en la primera línea. <br> En caso de solicitar ACTUALIZAR o BORRAR un producto que no existe (es decir, que el código del producto no <br> encuentra en la base de datos), se debe imprimir "ERROR". <br> En caso de solicitar AGREGAR un producto cuyo código ya existe en la base de datos se debe imprimir "ERROR".|
 
-
-
 ### Casos de prueba
 
 | | |
