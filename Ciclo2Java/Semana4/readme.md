@@ -1,4 +1,4 @@
-# Ejercicio 20 | Operaciones CRUD con JDBC | [Solución 20](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana4/Ejercicio20.java)
+# Ejercicio 20 | Operaciones CRUD con JDBC | [Solución 20](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana4/Ejercicio20)
 ### Enunciado e instrucciones
 1. Para este ejercicio debemos crear una base de datos en MySQL llamada Fábrica con una tabla con el mismo nombre. Esta tabla debe contener los atributos:
 
