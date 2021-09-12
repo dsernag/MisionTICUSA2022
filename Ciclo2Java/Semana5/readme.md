@@ -1,4 +1,4 @@
-# Ejercicio 21 | SPRING DATA JDBC | [Solución 21](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana5/)
+# Ejercicio 21 | SPRING DATA JDBC | [Solución 21](https://github.com/dsernag/MisionTICUSA2022/tree/main/Ciclo2Java/Semana5/Ejercicio21)
 ### Enunciado e instrucciones
 
 1. Para este ejercicio debemos crear una base de dato en MySQL llamada Personas con una tabla con el mismo nombre. Esta tabla debe contener los atributos:
