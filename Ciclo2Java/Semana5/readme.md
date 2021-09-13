@@ -30,7 +30,7 @@ usando Spring Data JDBC.
 
 6. En cada operación verifique que los cambios se vean reflejados en la base de datos
 ___
-# Reto 5 | Sistema de inventario para el mini-mercado usando el patrón MVC y Spring Data JDBC   [Solución Reto 5](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana5/)
+# Reto 5 | Sistema de inventario para el mini-mercado usando el patrón MVC y Spring Data JDBC   [Solución Reto 5](https://github.com/dsernag/MisionTICUSA2022/blob/main/Ciclo2Java/Semana5/Reto5)
 
 ### Enunciado
 En este reto continuaremos trabajando con el sistema de inventario para la tienda desarrollado en el Reto 2 y reto 3. Nuestro objetivo es lograr implementar de forma completa la aplicación utilizando el patrón MVC y el Framework Spring Data JDBC. A continuación, se presenta nuevamente el contexto del problema.
